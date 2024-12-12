@@ -73,7 +73,7 @@ text.innerHTML = "You turn around, instead of going in the dark tunnel";
 // right right right right right right right right  
 right.addEventListener('click', function(){
     console.log("right button");
-        leftRight.style.display = "none";
+       choose.style.display="none";
         left.style.display = "none";
         right.style.display = "none";
         tunnel.style.display = "none";
